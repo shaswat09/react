@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Items default 1`] = `
+<span>
+  No items in list
+</span>
+`;
+
+exports[`Items render correctly when multiple items 1`] = `
+<div>
+  <div
+    id="lol"
+  >
+    <ul>
+      <li>
+        abc
+      </li>
+      <li>
+        xyz
+      </li>
+      <li>
+        pqr
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`Items render correctly when single item 1`] = `
+<span>
+  abc
+</span>
+`;
